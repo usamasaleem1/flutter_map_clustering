@@ -1,5 +1,5 @@
 /// A high-performance clustering library for location-based data with Flutter integration
-library flutter_clustering_library;
+library flutter_map_clustering;
 
 export "src/clustering/algorithms/density_clustering_strategy.dart";
 // Clustering algorithms

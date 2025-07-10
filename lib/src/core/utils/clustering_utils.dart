@@ -2,11 +2,11 @@ import "dart:math" as math;
 import "package:latlong2/latlong.dart" hide Distance, DistanceCalculator;
 import "package:uuid/uuid.dart";
 
-import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
-import "package:flutter_clustering_library/src/core/models/cluster.dart";
-import "package:flutter_clustering_library/src/core/models/cluster_bounds.dart";
-import "package:flutter_clustering_library/src/core/models/clustering_parameters.dart";
-import "package:flutter_clustering_library/src/core/utils/distance_calculator.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clusterable_item.dart";
+import "package:flutter_map_clustering/src/core/models/cluster.dart";
+import "package:flutter_map_clustering/src/core/models/cluster_bounds.dart";
+import "package:flutter_map_clustering/src/core/models/clustering_parameters.dart";
+import "package:flutter_map_clustering/src/core/utils/distance_calculator.dart";
 
 /// Utility class for clustering operations
 class ClusteringUtils {

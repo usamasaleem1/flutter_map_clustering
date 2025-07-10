@@ -1,9 +1,9 @@
-import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
-import "package:flutter_clustering_library/src/core/interfaces/clustering_logger.dart";
-import "package:flutter_clustering_library/src/core/interfaces/clustering_strategy.dart";
-import "package:flutter_clustering_library/src/core/models/cluster.dart";
-import "package:flutter_clustering_library/src/core/models/clustering_parameters.dart";
-import "package:flutter_clustering_library/src/core/utils/clustering_utils.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clusterable_item.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clustering_logger.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clustering_strategy.dart";
+import "package:flutter_map_clustering/src/core/models/cluster.dart";
+import "package:flutter_map_clustering/src/core/models/clustering_parameters.dart";
+import "package:flutter_map_clustering/src/core/utils/clustering_utils.dart";
 
 /// Density-based clustering strategy (DBSCAN-like algorithm)
 class DensityClusteringStrategy<T extends ClusterableItem> implements ClusteringStrategy<T> {

@@ -1,11 +1,11 @@
 import "package:flutter_bloc/flutter_bloc.dart";
 
-import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
-import "package:flutter_clustering_library/src/core/interfaces/clustering_logger.dart";
-import "package:flutter_clustering_library/src/core/models/cluster.dart";
-import "package:flutter_clustering_library/src/clustering/repositories/clustering_repository.dart";
-import "package:flutter_clustering_library/src/flutter_integration/blocs/clustering_event.dart";
-import "package:flutter_clustering_library/src/flutter_integration/blocs/clustering_state.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clusterable_item.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clustering_logger.dart";
+import "package:flutter_map_clustering/src/core/models/cluster.dart";
+import "package:flutter_map_clustering/src/clustering/repositories/clustering_repository.dart";
+import "package:flutter_map_clustering/src/flutter_integration/blocs/clustering_event.dart";
+import "package:flutter_map_clustering/src/flutter_integration/blocs/clustering_state.dart";
 
 /// BLoC for managing clustering operations
 class ClusteringBloc<T extends ClusterableItem> extends Bloc<ClusteringEvent, ClusteringState<T>> {

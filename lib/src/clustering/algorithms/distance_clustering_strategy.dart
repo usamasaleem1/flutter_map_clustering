@@ -1,12 +1,11 @@
-
-import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
-import "package:flutter_clustering_library/src/core/interfaces/clustering_logger.dart";
-import "package:flutter_clustering_library/src/core/interfaces/clustering_strategy.dart";
-import "package:flutter_clustering_library/src/core/models/cluster.dart";
-import "package:flutter_clustering_library/src/core/models/clustering_parameters.dart";
-import "package:flutter_clustering_library/src/core/utils/clustering_utils.dart";
-import "package:flutter_clustering_library/src/core/utils/distance_calculator.dart";
-import "package:flutter_clustering_library/src/spatial_indexing/quadtree_spatial_index.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clusterable_item.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clustering_logger.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clustering_strategy.dart";
+import "package:flutter_map_clustering/src/core/models/cluster.dart";
+import "package:flutter_map_clustering/src/core/models/clustering_parameters.dart";
+import "package:flutter_map_clustering/src/core/utils/clustering_utils.dart";
+import "package:flutter_map_clustering/src/core/utils/distance_calculator.dart";
+import "package:flutter_map_clustering/src/spatial_indexing/quadtree_spatial_index.dart";
 
 /// Distance-based clustering strategy with spatial indexing optimization
 class DistanceClusteringStrategy<T extends ClusterableItem> implements ClusteringStrategy<T> {

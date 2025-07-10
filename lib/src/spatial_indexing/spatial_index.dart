@@ -1,7 +1,7 @@
 import "package:latlong2/latlong.dart";
 
-import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
-import "package:flutter_clustering_library/src/core/models/cluster_bounds.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clusterable_item.dart";
+import "package:flutter_map_clustering/src/core/models/cluster_bounds.dart";
 
 /// Interface for spatial indexing data structures
 abstract class SpatialIndex<T extends ClusterableItem> {

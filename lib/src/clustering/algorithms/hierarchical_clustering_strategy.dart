@@ -1,9 +1,9 @@
-import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
-import "package:flutter_clustering_library/src/core/interfaces/clustering_logger.dart";
-import "package:flutter_clustering_library/src/core/interfaces/clustering_strategy.dart";
-import "package:flutter_clustering_library/src/core/models/cluster.dart";
-import "package:flutter_clustering_library/src/core/models/clustering_parameters.dart";
-import "package:flutter_clustering_library/src/core/utils/clustering_utils.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clusterable_item.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clustering_logger.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clustering_strategy.dart";
+import "package:flutter_map_clustering/src/core/models/cluster.dart";
+import "package:flutter_map_clustering/src/core/models/clustering_parameters.dart";
+import "package:flutter_map_clustering/src/core/utils/clustering_utils.dart";
 
 /// Hierarchical clustering strategy using agglomerative clustering
 class HierarchicalClusteringStrategy<T extends ClusterableItem> implements ClusteringStrategy<T> {

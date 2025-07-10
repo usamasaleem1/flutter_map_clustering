@@ -12,3 +12,9 @@
 - Flutter BLoC integration
 - Customizable clustering parameters
 - Flutter widgets for map integration
+
+## [1.0.0-1] - 2025-07-10
+
+### Rename
+
+- Rename Library Name from flutter_clustering_library to flutter_map_clustering

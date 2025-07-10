@@ -1,9 +1,9 @@
 import "package:flutter/material.dart";
 import "package:flutter_map/flutter_map.dart";
 
-import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
-import "package:flutter_clustering_library/src/core/models/cluster.dart";
-import "package:flutter_clustering_library/src/flutter_integration/widgets/cluster_marker.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clusterable_item.dart";
+import "package:flutter_map_clustering/src/core/models/cluster.dart";
+import "package:flutter_map_clustering/src/flutter_integration/widgets/cluster_marker.dart";
 
 /// A map layer that displays clustered items
 class ClusteredMapLayer<T extends ClusterableItem> extends StatelessWidget {
@@ -128,7 +128,7 @@ class _ClusteredMapState<T extends ClusterableItem> extends State<ClusteredMap<T
       children: [
         TileLayer(
           urlTemplate: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-          userAgentPackageName: "flutter_clustering_library",
+          userAgentPackageName: "flutter_map_clustering",
         ),
         ...widget.additionalLayers,
         ClusteredMapLayer<T>(

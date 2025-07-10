@@ -1,8 +1,8 @@
 import "package:equatable/equatable.dart";
 
-import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
-import "package:flutter_clustering_library/src/core/models/cluster.dart";
-import "package:flutter_clustering_library/src/core/models/clustering_parameters.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clusterable_item.dart";
+import "package:flutter_map_clustering/src/core/models/cluster.dart";
+import "package:flutter_map_clustering/src/core/models/clustering_parameters.dart";
 
 /// Clustering status enumeration
 enum ClusteringStatus {

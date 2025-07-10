@@ -1,9 +1,9 @@
 import "package:latlong2/latlong.dart" hide Distance, DistanceCalculator;
 
-import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
-import "package:flutter_clustering_library/src/core/models/cluster_bounds.dart";
-import "package:flutter_clustering_library/src/core/utils/distance_calculator.dart";
-import "package:flutter_clustering_library/src/spatial_indexing/spatial_index.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clusterable_item.dart";
+import "package:flutter_map_clustering/src/core/models/cluster_bounds.dart";
+import "package:flutter_map_clustering/src/core/utils/distance_calculator.dart";
+import "package:flutter_map_clustering/src/spatial_indexing/spatial_index.dart";
 
 /// QuadTree implementation for efficient spatial indexing
 class QuadTreeSpatialIndex<T extends ClusterableItem> implements SpatialIndex<T> {

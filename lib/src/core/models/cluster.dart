@@ -3,7 +3,7 @@ import "package:latlong2/latlong.dart";
 import "package:meta/meta.dart";
 import "package:flutter_map/flutter_map.dart";
 
-import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clusterable_item.dart";
 
 /// Generic cluster that can contain any type of ClusterableItem
 @immutable

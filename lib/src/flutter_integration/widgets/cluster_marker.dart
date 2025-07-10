@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 
-import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
-import "package:flutter_clustering_library/src/core/models/cluster.dart";
+import "package:flutter_map_clustering/src/core/interfaces/clusterable_item.dart";
+import "package:flutter_map_clustering/src/core/models/cluster.dart";
 
 /// A generic cluster marker widget for displaying clusters on the map
 class ClusterMarker<T extends ClusterableItem> extends StatelessWidget {
