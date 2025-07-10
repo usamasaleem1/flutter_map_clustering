@@ -14,7 +14,7 @@ A high-performance clustering library for location-based data with Flutter integ
 
 ```yaml
 dependencies:
-  flutter_map_clustering: ^1.0.0-1
+  flutter_map_clustering: ^1.0.1
 ```
 
 ## Quick Start

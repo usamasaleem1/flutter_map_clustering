@@ -13,7 +13,7 @@
 - Customizable clustering parameters
 - Flutter widgets for map integration
 
-## [1.0.0-1] - 2025-07-10
+## [1.0.1] - 2025-07-10
 
 ### Rename
 
