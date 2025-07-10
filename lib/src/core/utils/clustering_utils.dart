@@ -99,7 +99,7 @@ class ClusteringUtils {
 
     final id = generateClusterId();
     final center = calculateItemsCentroid(items);
-    final bounds = calculateItemsBounds(items);
+    // final bounds = calculateItemsBounds(items);
 
     return Cluster<T>(
       id: id,

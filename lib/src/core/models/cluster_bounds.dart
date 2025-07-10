@@ -84,7 +84,6 @@ class ClusterBounds extends Equatable {
     const degreesToRadians = 3.14159265359 / 180.0;
 
     final latRadians = point.latitude * degreesToRadians;
-    final lngRadians = point.longitude * degreesToRadians;
 
     final deltaLat = radiusInMeters / earthRadius / degreesToRadians;
     final deltaLng = radiusInMeters / (earthRadius * math.cos(latRadians)) / degreesToRadians;

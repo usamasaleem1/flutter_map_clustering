@@ -106,7 +106,7 @@ class ClusteringParameters extends Equatable {
 
     // Calculate distance threshold based on zoom level
     const maxDistance = 20000.0; // 20km at low zoom
-    const minDistance = 200.0; // 200m at high zoom
+    // const minDistance = 200.0; // 200m at high zoom
 
     final normalizedZoom =
         (zoomLevel - minClusteringZoomThreshold) / (maxClusteringZoomThreshold - minClusteringZoomThreshold);

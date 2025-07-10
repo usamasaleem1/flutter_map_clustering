@@ -1,5 +1,4 @@
 import "package:flutter/material.dart";
-import "package:flutter_map/flutter_map.dart";
 
 import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
 import "package:flutter_clustering_library/src/core/models/cluster.dart";
@@ -47,7 +46,7 @@ class ClusterMarker<T extends ClusterableItem> extends StatelessWidget {
               : null,
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.3),
+              color: Colors.black.withValues(alpha: 0.3),
               blurRadius: 6,
               offset: const Offset(0, 2),
             ),
@@ -126,7 +125,7 @@ class ItemMarker<T extends ClusterableItem> extends StatelessWidget {
               : null,
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.3),
+              color: Colors.black.withValues(alpha: 0.3),
               blurRadius: 4,
               offset: const Offset(0, 2),
             ),

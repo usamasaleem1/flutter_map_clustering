@@ -1,15 +1,12 @@
-import "dart:math" as math;
 
 import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
 import "package:flutter_clustering_library/src/core/interfaces/clustering_logger.dart";
 import "package:flutter_clustering_library/src/core/interfaces/clustering_strategy.dart";
 import "package:flutter_clustering_library/src/core/models/cluster.dart";
-import "package:flutter_clustering_library/src/core/models/cluster_bounds.dart";
 import "package:flutter_clustering_library/src/core/models/clustering_parameters.dart";
 import "package:flutter_clustering_library/src/core/utils/clustering_utils.dart";
 import "package:flutter_clustering_library/src/core/utils/distance_calculator.dart";
 import "package:flutter_clustering_library/src/spatial_indexing/quadtree_spatial_index.dart";
-import "package:flutter_clustering_library/src/spatial_indexing/spatial_index.dart";
 
 /// Distance-based clustering strategy with spatial indexing optimization
 class DistanceClusteringStrategy<T extends ClusterableItem> implements ClusteringStrategy<T> {
@@ -147,7 +144,6 @@ class DistanceClusteringStrategy<T extends ClusterableItem> implements Clusterin
   ) async {
     final clusters = <Cluster<T>>[];
     final processed = <String>{};
-    final threshold = getClusterDistanceThreshold(parameters);
 
     for (int i = 0; i < items.length; i++) {
       if (processed.contains(items[i].id)) continue;
@@ -194,7 +190,6 @@ class DistanceClusteringStrategy<T extends ClusterableItem> implements Clusterin
 
     _logger.info("Starting incremental clustering for ${newItems.length} new items");
 
-    final allItems = [...existingItems, ...newItems];
     final affectedClusters = <Cluster<T>>{};
     final threshold = getClusterDistanceThreshold(parameters);
 

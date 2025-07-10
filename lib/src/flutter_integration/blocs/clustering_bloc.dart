@@ -3,7 +3,6 @@ import "package:flutter_bloc/flutter_bloc.dart";
 import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
 import "package:flutter_clustering_library/src/core/interfaces/clustering_logger.dart";
 import "package:flutter_clustering_library/src/core/models/cluster.dart";
-import "package:flutter_clustering_library/src/core/models/clustering_parameters.dart";
 import "package:flutter_clustering_library/src/clustering/repositories/clustering_repository.dart";
 import "package:flutter_clustering_library/src/flutter_integration/blocs/clustering_event.dart";
 import "package:flutter_clustering_library/src/flutter_integration/blocs/clustering_state.dart";

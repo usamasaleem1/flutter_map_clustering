@@ -1,4 +1,3 @@
-import "dart:math" as math;
 import "package:latlong2/latlong.dart" hide Distance, DistanceCalculator;
 
 import "package:flutter_clustering_library/src/core/interfaces/clusterable_item.dart";
