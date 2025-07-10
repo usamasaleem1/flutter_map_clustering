@@ -1,0 +1,32 @@
+name: flutter_clustering_library
+description: A high-performance clustering library for location-based data with Flutter integration
+version: 1.0.0
+homepage: https://github.com/usamasaleem1/flutter_map_clustering
+repository: https://github.com/usamasaleem1/flutter_map_clustering
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  equatable: ^2.0.5
+  meta: ^1.9.1
+  latlong2: ^0.9.1
+  uuid: ^4.0.0
+
+  # Optional Flutter dependencies
+  flutter_map: ^8.1.1
+  flutter_bloc: ^8.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  mockito: ^5.4.2
+  bloc_test: ^9.1.4
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
